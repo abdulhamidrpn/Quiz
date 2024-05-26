@@ -1,0 +1,128 @@
+[versions]
+agp = "8.3.0"
+accompanist = "0.34.0"
+
+# @keep
+compileSdk = "34"
+
+# @keep
+minSdk = "26"
+
+# @keep
+targetSdk = "34"
+
+kotlin = "1.9.0"
+coreKtx = "1.13.0"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+lifecycleRuntimeKtx = "2.7.0"
+activityCompose = "1.9.0"
+composeBom = "2024.04.01"
+composeNavigation = "2.7.7"
+daggerHiltNavigation = "1.2.0"
+daggerHilt = "2.50"
+daggerHiltCompose = "1.2.0"
+coil = "2.5.0"
+iconsExtended = "1.6.6"
+firebase-bom = "32.8.1"
+googleService = "4.4.1"
+firebaseFirestoreKtx = "24.11.1"
+firebaseStorageKtx = "20.3.0"
+exifinterface = "1.3.7"
+dataStore = "1.1.0"
+apacheExcel = "5.2.3"
+playServicesAdsIdentifier = "18.0.1"
+googleGuava = "32.0.1-android"
+pdfReaderBouquet = "1.1.2"
+pdfReaderPratikksahu = "1.0.3"
+googleAds = "23.0.0"
+splashScreen = "1.0.1"
+androidx-window = "1.3.0-beta01"
+billingVersion = "6.2.1"
+firebaseMessagingKtx = "23.4.1"
+
+
+
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+
+accompanist-swiperefresh = { module = "com.google.accompanist:accompanist-swiperefresh", version.ref = "accompanist" }
+
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+androidx-activity-compose = { group = "androidx.activity", name = "activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { group = "androidx.compose", name = "compose-bom", version.ref = "composeBom" }
+androidx-compose-animation = { module = "androidx.compose.animation:animation" }
+androidx-compose-materialWindow = { module = "androidx.compose.material3:material3-window-size-class" }
+androidx-window = { module = "androidx.window:window", version.ref = "androidx-window" }
+androidx-ui = { group = "androidx.compose.ui", name = "ui" }
+androidx-ui-graphics = { group = "androidx.compose.ui", name = "ui-graphics" }
+androidx-ui-tooling = { group = "androidx.compose.ui", name = "ui-tooling" }
+androidx-ui-tooling-preview = { group = "androidx.compose.ui", name = "ui-tooling-preview" }
+
+
+androidx-ui-test-manifest = { group = "androidx.compose.ui", name = "ui-test-manifest" }
+androidx-ui-test-junit4 = { group = "androidx.compose.ui", name = "ui-test-junit4" }
+androidx-material3 = { group = "androidx.compose.material3", name = "material3" }
+androidx-navigation = { group = "androidx.navigation", name = "navigation-compose", version.ref = "composeNavigation" }
+dagger-hilt-navigation = { group = "androidx.hilt", name = "hilt-navigation-fragment", version.ref = "daggerHiltNavigation" }
+dagger-hilt = { group = "com.google.dagger", name = "hilt-android", version.ref = "daggerHilt" }
+dagger-hilt-compose = { group = "androidx.hilt", name = "hilt-navigation-compose", version.ref = "daggerHiltCompose" }
+dagger-hilt-compiler = { group = "com.google.dagger", name = "hilt-android-compiler", version.ref = "daggerHilt" }
+
+androidx-datastore= { group = "androidx.datastore", name = "datastore-preferences", version.ref = "dataStore" }
+io-coil-kt = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
+#icons
+icons-extended = { group = "androidx.compose.material", name = "material-icons-extended", version.ref = "iconsExtended" }
+
+# Firebase
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebase-bom" }
+google-firebase-crashlytics = { group = "com.google.firebase", name = "firebase-crashlytics" }
+google-firebase-analytics = { group = "com.google.firebase", name = "firebase-analytics" }
+google-firebase-firestore-ktx = { group = "com.google.firebase", name = "firebase-firestore-ktx", version.ref = "firebaseFirestoreKtx" }
+google-firebase-storage-ktx = { group = "com.google.firebase", name = "firebase-storage-ktx", version.ref = "firebaseStorageKtx" }
+androidx-exifinterface = { group = "androidx.exifinterface", name = "exifinterface", version.ref = "exifinterface" }
+
+apache-excel = { group = "org.apache.poi", name = "poi", version.ref = "apacheExcel" }
+apache-excel-ooxml = { group = "org.apache.poi", name = "poi-ooxml", version.ref = "apacheExcel" }
+
+google-ads = { group = "com.google.android.gms", name = "play-services-ads", version.ref = "googleAds" }
+core-splashscreen = { group = "androidx.core", name = "core-splashscreen", version.ref = "splashScreen" }
+
+#Can remove them later
+play-services-ads-identifier = { group = "com.google.android.gms", name = "play-services-ads-identifier", version.ref = "playServicesAdsIdentifier" }
+#Used for the calls to addCallback() in the snippets on this page.
+google-guava = { group = "com.google.guava", name = "guava", version.ref = "googleGuava" }
+pdf-reader-bouquet = { group = "io.github.grizzi91", name = "bouquet", version.ref = "pdfReaderBouquet" }
+pdf-reader-pratikksahu = { group = "com.github.pratikksahu", name = "JetPDFVue", version.ref = "pdfReaderPratikksahu" }
+
+google-billingClient = { group = "com.android.billingclient", name = "billing-ktx", version.ref = "billingVersion" }
+firebase-messaging-ktx = { group = "com.google.firebase", name = "firebase-messaging-ktx", version.ref = "firebaseMessagingKtx" }
+
+
+
+
+#firebase-analytics-ktx = { module = "com.google.firebase:firebase-analytics" }
+#playServices-auth = "com.google.android.gms:play-services-auth:21.0.0"
+#firebase-auth-ktx = { module = "com.google.firebase:firebase-auth" }
+#firebase-crashlytics-ktx = { module = "com.google.firebase:firebase-crashlytics" }
+#firebase-dynamicLinks-ktx = { module = "com.google.firebase:firebase-dynamic-links" }
+#firebase-installations-ktx = { module = "com.google.firebase:firebase-installations" }
+#firebase-messaging-ktx = { module = "com.google.firebase:firebase-messaging" }
+#firebase-perf-ktx = { module = "com.google.firebase:firebase-perf" }
+
+
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+android-library = { id = "com.android.library", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+daggerHilt = { id = "com.google.dagger.hilt.android", version.ref = "daggerHilt" }
+googleServices = { id = "com.google.gms.google-services", version.ref = "googleService" }
+firebase-crashlytics = "com.google.firebase.crashlytics:2.9.9"
+
+#firebase-perf = "com.google.firebase.firebase-perf:1.4.2"

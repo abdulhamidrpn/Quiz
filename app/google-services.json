@@ -1,0 +1,127 @@
+{
+  "project_info": {
+    "project_number": "770395429157",
+    "firebase_url": "https://gujarati-gk-quiz-a9a98-default-rtdb.firebaseio.com",
+    "project_id": "gujarati-gk-quiz-a9a98",
+    "storage_bucket": "gujarati-gk-quiz-a9a98.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770395429157:android:2d5d0f3498f9dd1e06e2cc",
+        "android_client_info": {
+          "package_name": "com.android.gkadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770395429157-ntvlbal8m9hcqrcsl06mhjb074iscqgd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmh03iAGWoJ9mWDnqZKdUorGNjv4hiAcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770395429157-ntvlbal8m9hcqrcsl06mhjb074iscqgd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770395429157:android:464608b42ad4c48506e2cc",
+        "android_client_info": {
+          "package_name": "com.android.gkquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770395429157-ntvlbal8m9hcqrcsl06mhjb074iscqgd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmh03iAGWoJ9mWDnqZKdUorGNjv4hiAcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770395429157-ntvlbal8m9hcqrcsl06mhjb074iscqgd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770395429157:android:1db2f106687d4ebd06e2cc",
+        "android_client_info": {
+          "package_name": "com.education.ekagratagkquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770395429157-ntvlbal8m9hcqrcsl06mhjb074iscqgd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmh03iAGWoJ9mWDnqZKdUorGNjv4hiAcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770395429157-ntvlbal8m9hcqrcsl06mhjb074iscqgd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:770395429157:android:40e17a8f9c05603b06e2cc",
+        "android_client_info": {
+          "package_name": "com.education.gkquiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "770395429157-ntvlbal8m9hcqrcsl06mhjb074iscqgd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmh03iAGWoJ9mWDnqZKdUorGNjv4hiAcA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "770395429157-ntvlbal8m9hcqrcsl06mhjb074iscqgd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

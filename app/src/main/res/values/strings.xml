@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">EGQ LIFE SCIENCE</string>
+
+    <string name="create_quiz_info">In case the image for the quiz is not picked,a color can be picked if both of them are not picked then a color will be randomly selected for the quiz</string>
+    <string name="image_extra">Pick an image for the quiz,just for visual representation</string>
+    <string name="pdf_extra">Pick a pdf for the quiz, by which quiz participant can easily take a quick preparation</string>
+    <string name="image_extra_question">Pick an image for the Question.</string>
+    <string name="contribute_quiz_info">You can not only answers quizzes in this app. But you can too contribute some quizzes over hear.</string>
+    <string name="profile_info">Change your profile settings from here, There aren\'t much options for now.</string>
+    <string name="profile_info_note">The changes applied to the user are not directly shown in the app. SO see the changes,restart your app</string>
+    <string name="quiz_tab_info">Here are the available quiz\'s that one can participate in.Click one to participate in it</string>
+    <string name="preparation_tab_info">Here are the available pdf\'s that one can take preparation easily.</string>
+    <string name="home_tab_card_info">Enter the quiz Id to directly participate in the quiz. Make sure its approved</string>
+    <string name="adding_question_wait">Adding the questions and there respective options to the database please wait</string>
+    <string name="loading_wait">Please wait for a while</string>
+    <string name="create_quiz_desc">Know a certain topic,want to contribute a quiz for that,add the quiz details and add the questions</string>
+    <string name="create_quiz_dialog_text">Quiz has been added to the database you now can add the questions to the quiz</string>
+    <string name="all_quizzes_extra_info">If certain quiz are not found,that means they aren\'t approved yet,or they lost there approval</string>
+    <string name="all_preparation_extra_info">If certain quiz are not found,that means they aren\'t approved yet,or they lost there approval</string>
+    <string name="quiz_submission_desc">Your results will be added to the database, you can visit the results section to view the results</string>
+    <string name="results_desc">How did you perform in your last attempts ? Lets take a look at your results</string>
+    <string name="results_universal_desc">How did people perform in last attempts ? Lets take a look at the results</string>
+    <string name="results_not_found">Our records indicate that you haven\'t participated in ant of the quizzes.Take a quiz to test your knowledge</string>
+    <string name="add_quiz_question_text">Create your own unique quizzes and challenge your knowledge.Put your knowledge on display today</string>
+    <string name="list_questions_title">Provided below is a comprehensive and exhaustive list of all the question that have been compiled</string>
+    <string name="list_questions_additional">At the moment it\'s possible to delete questions but updating them is not currently an available option</string>
+    <string name="delete_full_quiz_desc">Deleting this quiz will delete all the questions along with the results associated with the quiz</string>
+    <string name="back_not_allowed">Complete the Quiz First,cannot pop out of the quiz screen,otherwise cancel the running quiz</string>
+    <string name="start_quiz_info">Start this quiz. Mind that you are not allowed to exit before submitting your quiz</string>
+
+    <string name="cancel_purchase_msg">You have purchased this subscription and it will be renewed automatically after current billing period ends. To manage subscriptions, please visit google play store.</string>
+    <string name="manage_subscription">Manage Subscription</string>
+    <string name="subs_description">Users will be able to use the application without viewing any advertisements.</string>
+
+    <!--Test Ad Id-->
+    <!--<string name="admob_app_id">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="admob_banner_ad">ca-app-pub-3940256099942544/6300978111</string>
+    <string name="admob_interstitial">ca-app-pub-3940256099942544/1033173712</string>
+    <string name="admob_rewarded">ca-app-pub-3940256099942544/5224354917</string>-->
+
+    <string name="admob_app_id">ca-app-pub-3420430086552784~5152162824</string>
+    <string name="admob_banner_ad">ca-app-pub-3420430086552784/5016996103</string>
+    <string name="admob_interstitial">ca-app-pub-3420430086552784/1292808862</string>
+    <string name="admob_rewarded">ca-app-pub-3420430086552784/5838558537</string>
+
+    <string name="result_topper_desc">The top 3 scorers from all quizzes.</string>
+    <string name="result_topper_sub_desc">The top 30 scorers from this quiz.</string>
+    <string name="default_notification_channel_id">egq_notification_update</string>
+</resources>

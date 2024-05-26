@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.Quiz" parent="android:Theme.Material.Light.NoActionBar" />
+
+    <style name="Theme.App.Starting" parent="Theme.Quiz">
+        <item name="android:windowBackground">@drawable/launch_background</item>
+        <item name="postSplashScreenTheme">@style/Theme.Quiz</item>
+    </style>
+</resources>
