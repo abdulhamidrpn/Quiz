@@ -17,7 +17,22 @@ To Edit the Admin panel Follow the ToDo Instructions in the code
 
 ## Design
 Followed by material3 UI design pattern
+#### Flutter App Screenshots
 
+<table>
+  <tr>
+    <td>First Screen Page</td>
+     <td>Holiday Mention</td>
+     <td>Present day in purple and selected day in pink</td>
+  </tr>
+  <tr>
+    <td><img src="https://github.com/abdulhamidrpn/Quiz/assets/40200418/74ea0aea-b85a-46bb-a366-0e8faef173a0" width=270 height=480></td>
+    <td><img src="screenshots/Screenshot_1582745125.png" width=270 height=480></td>
+    <td><img src="screenshots/Screenshot_1582745139.png" width=270 height=480></td>
+  </tr>
+ </table>
+
+ 
 | UI Section   | Screenshot |
 | ------ | ------ |
 | Home Section | ![image](https://github.com/abdulhamidrpn/Quiz/assets/40200418/74ea0aea-b85a-46bb-a366-0e8faef173a0) |
